@@ -1,0 +1,28 @@
+.movie-row{
+    padding:25px 40px;
+}
+
+.movie-row h2{
+    color:white;
+    margin-bottom:15px;
+}
+
+.movies{
+    display:flex;
+    gap:15px;
+    overflow-x:auto;
+    scrollbar-width:none;
+    scroll-behavior:smooth;
+}
+
+.movies::-webkit-scrollbar{
+    display:none;
+}
+
+@media(max-width:768px){
+
+    .movie-row{
+        padding:20px;
+    }
+
+}
